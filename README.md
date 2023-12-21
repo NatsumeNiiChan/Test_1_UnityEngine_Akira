@@ -10,5 +10,5 @@ https://github.com/NatsumeNiiChan/Test_1_UnityEngine_Akira/assets/120458358/cd29
 
 https://github.com/NatsumeNiiChan/Test_1_UnityEngine_Akira/assets/120458358/dd173799-36a8-4b7f-ac83-c79ecd1a6fc5
 
-https://github.com/NatsumeNiiChan/Test_1_UnityEngine_Akira/assets/120458358/22c4ee62-3d6d-4467-bcb7-060660d4b257
+https://github.com/NatsumeNiiChan/Test_1_UnityEngine_Akira/assets/120458358/77796918-fe27-4c65-a901-666bb1809d9b
 
