@@ -1,9 +1,8 @@
 # Test_1_UnityEngine_Akira
 used with GitKraken
 
-![ScreenshotRealtimeScene](https://github.com/NatsumeNiiChan/Test_1_UnityEngine_Akira/assets/120458358/c0c53447-69cc-4678-b713-4e0344d5597d)
-
-![ScreenshotBakedScene](https://github.com/NatsumeNiiChan/Test_1_UnityEngine_Akira/assets/120458358/768decb0-2544-41c8-aeaf-069af9072262)
+![ScreenshotBakedScene](https://github.com/NatsumeNiiChan/Test_1_UnityEngine_Akira/assets/120458358/0c32a8ab-82bf-46e8-a8e8-677368d75cf0)
+![ScreenshotRealtimeScene](https://github.com/NatsumeNiiChan/Test_1_UnityEngine_Akira/assets/120458358/96ec404c-b574-4d31-a555-0056d2c272e1)
 
 https://github.com/NatsumeNiiChan/Test_1_UnityEngine_Akira/assets/120458358/911b3f2b-cd4c-45af-841f-d65160e8463f
 
