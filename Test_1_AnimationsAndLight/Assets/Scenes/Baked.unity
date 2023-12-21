@@ -97,7 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 5204f984d30e4c445991167a9cb03859,
+    type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 7ff29e65a1819ff45849ed4c52599959,
     type: 2}
 --- !u!196 &4
@@ -1621,7 +1622,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.5
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -2009,15 +2010,15 @@ ReflectionProbe:
   m_NearClip: 0.3
   m_FarClip: 1000
   m_ShadowDistance: 100
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.14901961, g: 0.14901961, b: 0.14901961, a: 0}
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IntensityMultiplier: 1
   m_BlendDistance: 1
   m_HDR: 1
-  m_BoxProjection: 0
+  m_BoxProjection: 1
   m_RenderDynamicObjects: 0
   m_UseOcclusionCulling: 1
   m_Importance: 1
@@ -2345,7 +2346,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Realtime
+  m_text: Baked
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2458,7 +2459,7 @@ PrefabInstance:
     - target: {fileID: 943022944333975590, guid: a8f65eba439f8f2409d2fce9b8e36a72,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 950140176102285021, guid: a8f65eba439f8f2409d2fce9b8e36a72,
         type: 3}
@@ -2583,7 +2584,7 @@ PrefabInstance:
     - target: {fileID: 4550812929290022421, guid: a8f65eba439f8f2409d2fce9b8e36a72,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4650363371968522323, guid: a8f65eba439f8f2409d2fce9b8e36a72,
         type: 3}
@@ -2708,12 +2709,12 @@ PrefabInstance:
     - target: {fileID: 8027219707092800692, guid: a8f65eba439f8f2409d2fce9b8e36a72,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8109954586233023942, guid: a8f65eba439f8f2409d2fce9b8e36a72,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8194454354382701965, guid: a8f65eba439f8f2409d2fce9b8e36a72,
         type: 3}
@@ -2738,7 +2739,7 @@ PrefabInstance:
     - target: {fileID: 8747204179610479851, guid: a8f65eba439f8f2409d2fce9b8e36a72,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
