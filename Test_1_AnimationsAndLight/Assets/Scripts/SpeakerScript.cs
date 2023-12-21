@@ -1,18 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.VersionControl;
 using UnityEngine;
 
 public class SpeakerScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private ListenerScript listenerScript;
+
+    private void Awake()
     {
-        
+        listenerScript = FindObjectOfType<ListenerScript>();
+        PlayerPrefs.SetString("MessageKey", "secret");
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SpeakOnClick()
     {
-        
+        listenerScript.Listen();
     }
 }

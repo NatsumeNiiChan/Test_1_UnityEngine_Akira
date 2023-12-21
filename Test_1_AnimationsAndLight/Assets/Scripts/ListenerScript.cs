@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class ListenerScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private SpeakerScript speakerScript;
+
+    private void Awake()
     {
-        
+        speakerScript = FindObjectOfType<SpeakerScript>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Listen()
     {
-        
+        Debug.Log("Message recived:[" + PlayerPrefs.GetString("MessageKey") + "]");
     }
 }
